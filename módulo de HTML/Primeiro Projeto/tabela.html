@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Produtos</title>
+		<meta charset="utf-8">
+	</head>
+
+		<body>
+
+			<h1>Produtos</h1>
+
+			<table border="1" width="50%">
+				
+				<tr> <!-- Table Row - linha da tabela -->
+					<th> <!-- Table Head - cabeçalho da tabela-->
+						Código
+					</th>
+					<th>Produto</th>
+					<th>Preço</th>
+					
+				</tr>
+
+				<tr>
+					<td>0000000120</td> <!-- Table Data - dado da tabela, é na verdade uma célula de uma tabela-->
+					<td>NOTEBOOK</td>
+					<td>R$ 1200</td>
+				</tr>
+
+				<tr>
+					<td>0000000130</td>
+					<td>TABLET</td>
+					<td>R$ 500</td>
+				</tr>
+
+				<tr>
+					<!-- usando o colspan (para que uma célula ocupe x colunas, x > 1)-->
+					<td colspan="2">Subtotal</td>
+					<td>R$ 1700</td>
+				</tr>
+
+				<tr>
+					<!-- usando o rowspan (para que uma célula ocupe x linhas, x > 1)-->
+					<td rowspan="2" colspan="2">Desconto</td>
+					<td>Cupom 1: - R$10</td>
+				</tr>
+
+				<tr>
+					<td>Cupom 2: - R$ 12</td>
+				</tr>
+
+			</table>
+			
+
+		</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Formatando links</title>
+		<meta charset="utf-8">
+
+		<style type="text/css">
+
+			/*A FORMATAÇÃO TEM QUE SER FEITA NESSA SEQUÊNCIA DE ESTADOS*/
+
+			/*para todos os estados do link*/
+			a{
+				text-decoration: none;
+				padding: 5px;
+			}
+
+			/*links não visitados*/
+			a:link{
+				color: #b9c941;
+			}
+			
+			/*links visitados*/
+			a:visited{
+				color: #c0c0c0; 
+			}
+
+			/*links hover, passa o cursor sobre o link*/
+			a:hover{
+				color: white; 
+				background: #6d790f;
+			}
+
+			/*links ativos, quando clicado*/
+			a:active{
+				color: #e4f371; 
+			}
+
+		</style>	
+
+	</head>
+	
+	<body>
+
+		<a href="https://www.google.com.br">Google</a>  |
+		<a href="http://theberrics.com/">The Berrics</a>  |
+		<a href="http://www.thrashermagazine.com/">Thrasher</a>  |
+		<a href="https://www.netflix.com/browse">Netflix</a>  |
+		<a href="https://aluno.unibh.br/SOL/aluno/index.php/index/seguranca/dev/instituicao/1">SOL</a>
+
+
+	</body>
+</html>
+
+<!-- nos links, podemos formatar cada estado separadamente, como foi feito acima (no style) -->

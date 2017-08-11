@@ -1,0 +1,67 @@
+/*para limpar as formatações padrão*/
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-size: 16px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #f3f3f3;
+}
+
+
+/*IDs*/
+#navegacao{
+	background:  #fff;
+	border-bottom: 1px solid #d8d8d8;
+	height: 45px;
+}
+
+#area{
+	width: 720px;
+	margin: 0 auto;
+}
+
+
+#logo{
+	float: left;
+}
+
+#menu{
+	float: right;
+	padding: 10px 0;
+}
+
+/*---------Formatação do menu----------*/
+	/*para todos os estados do link*/
+	a{
+		text-decoration: none;
+		padding: 3px;		
+	}
+
+	/*links não visitados*/
+	a:link{
+		color: #838383;
+	}
+			
+	/*links visitados*/
+	a:visited{
+		color: #838383; 
+	}
+
+	/*links hover, passa o cursor sobre o link*/
+	a:hover{
+		color: white; 
+		background: #6d790f;
+	}
+	/*links ativos, quando clicado*/
+	a:active{
+		color: #e4f371; 
+	}
+
+
+/*classes*/
+.verde{
+	color: #b9c941;
+}
