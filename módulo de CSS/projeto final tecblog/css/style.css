@@ -23,6 +23,10 @@ body{
 	margin: 0 auto;
 }
 
+#areaPrincipal{
+	width: 720px;
+	margin: 10px auto 10px auto;
+}
 
 #logo{
 	float: left;
@@ -33,11 +37,16 @@ body{
 	padding: 10px 0;
 }
 
+#postagem{
+	background: #fff;
+	padding: 10px;
+}
+
 /*---------Formatação do menu----------*/
 	/*para todos os estados do link*/
 	a{
 		text-decoration: none;
-		padding: 3px;		
+		padding: 5px 10px;		
 	}
 
 	/*links não visitados*/
@@ -52,16 +61,25 @@ body{
 
 	/*links hover, passa o cursor sobre o link*/
 	a:hover{
-		color: white; 
-		background: #6d790f;
+		color: #fff;
+		background: #b9c941;
 	}
 	/*links ativos, quando clicado*/
 	a:active{
-		color: #e4f371; 
+		color: #535353; 
 	}
 
 
 /*classes*/
 .verde{
 	color: #b9c941;
+}
+
+.dataPostagem{
+	font-size: 14px;
+	border-bottom: 1px solid #f4f4f4;
+	display: block;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+
 }
