@@ -1,0 +1,44 @@
+Entidades HTML (Caracteres especiais)
+	http://www.w3schools.com/html/html_entities.asp
+
+borders:
+	https://www.w3schools.com/css/css_border.asp 
+
+Tipos de fontes:
+	http://www.w3schools.com/css/css_font.asp
+
+Fontes seguras para utilizar em seus projetos:
+	http://www.w3schools.com/cssref/css_websafe_fonts.asp
+
+Códigos de cores html Online:
+	http://html-color-codes.info/Codigos-de-Cores-HTML/
+
+Link para a extensão do Chrome Web Developer:
+	https://chrome.google.com/webstore/detail/web-developer/bfbameneiokkgbdmiekhjnmfkcnldhhm
+
+
+Compatibilidade com o HTML5 - Links:
+	Código para utilização do html5shim **Os links mudaram, utilize o link abaixo:
+	https://github.com/aFarkas/html5shiv
+	https://github.com/aFarkas/html5shiv/blob/master/dist/html5shiv.min.js
+
+	Script para anexar ao html
+
+	<!--[if IE]>
+	<script src="js/html5shiv.js"></script>
+	<![endif]-->
+
+	Mais elementos HTML 5
+
+	http://www.w3schools.com/html/html5_new_elements.asp
+
+CSS3:
+
+Normalize CSS
+	https://necolas.github.io/normalize.css/
+
+Propriedade box-sizing:
+	http://www.w3schools.com/cssref/css3_pr_box-sizing.asp
+
+Cantos arredondados:
+	http://www.w3schools.com/css/css3_borders.asp
