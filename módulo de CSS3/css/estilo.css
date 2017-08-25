@@ -56,3 +56,37 @@
 	/*text-shadow: 5px 10px 5px rgba(0,0,0,0.5);*/
 	text-shadow: 4px 4px black;
 }
+
+
+/**********animacao.html***********/
+
+/**criar animação**/
+@keyframes animacaoBox{
+	from{
+		background: red; 
+		border-radius: 0px; 
+		top: 0; 
+		left: 0
+	}
+	to {background: yellow; 
+		border-radius: 300px;
+		top: 200px;
+		left: 200px
+	}
+}
+
+#boxAnimacao{
+	width: 300px;
+	height: 300px;
+	background: red;
+	position: relative;
+
+	animation-name: animacaoBox;
+	animation-duration: 5s;
+	animation-delay: 3s;
+	animation-iteration-count: 2;
+	animation-direction: alternate;
+	/*ou*/
+	/*animation: animacaoBox 5s 3s 2 alternate;*/
+
+}
