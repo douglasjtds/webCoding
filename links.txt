@@ -63,3 +63,10 @@ Exemplos de Grids com Bootstrap:
 	https://getbootstrap.com/examples/grid/
 Mais opções de Grids: 
 	http://getbootstrap.com/css/
+
+
+________________________________________________
+a partir daqui passei a usar o Bootstrap 3.3 (versão mais antiga, a mesma usada nas vídeo aulas), pq estava com muitos problemas de incompatibilidade dos códigos ensinados com a versão 4.0.
+
+Ícones:
+	https://getbootstrap.com/docs/3.3/components/
