@@ -70,3 +70,6 @@ a partir daqui passei a usar o Bootstrap 3.3 (versão mais antiga, a mesma usada 
 
 Ícones:
 	https://getbootstrap.com/docs/3.3/components/
+
+Modal Window:
+	https://getbootstrap.com/docs/3.3/javascript/
