@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap Tabs</title>
+
+    <!-- Bootstrap -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="estilo.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    
+    <div class="container">
+      
+      <div class="page-header">
+        <h1>Bootstrap Tabs</h1>
+        <p class="lead">Alterne facilmente entre conteúdos</p>
+      </div> <!-- page-header -->
+
+      <!-- Criação de abas -->
+      <ul class="nav nav-tabs" role="tablist">
+        <li class="active"><a href="#info" role="tab" data-toggle="tab">Informações</a></li>
+        <li><a href="#avaliation" role="tab" data-toggle="tab">Avaliações</a></li>
+        <li><a href="#buyToo" role="tab" data-toggle="tab">Compre também</a></li>
+      </ul>
+
+      <!-- Conteúdo das abas -->
+      <div class="tab-content">
+
+        <!-- Aba de informações -->
+        <div class="tab-pane active" role="tabpanel" id="info">
+        <h3>Informações</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at ex consectetur, interdum turpis id, tincidunt odio. Nam suscipit velit et metus dictum sagittis. Duis elementum id velit quis ultrices. Ut eu enim a libero porta posuere et sed libero. Phasellus pretium in justo ac condimentum. Vivamus quis enim enim. Vivamus eget ullamcorper nisl. Maecenas tincidunt dictum dolor vel hendrerit. Sed ultricies volutpat convallis. Cras aliquam lacus ac ex commodo mattis. In venenatis et nulla sit amet vulputate. Donec at enim pharetra, finibus massa ornare, interdum felis. Suspendisse ornare felis velit, sed facilisis elit vestibulum in. Integer turpis massa, mattis in augue auctor, sodales euismod ligula. Nulla sed vulputate ante. Suspendisse ultricies, risus non venenatis feugiat, erat velit pharetra elit, at sagittis metus urna sed elit.
+        </p>
+          
+        </div>
+
+
+        <!-- Aba de avaliações -->
+        <div class="tab-pane" role="tabpanel" id="avaliation">
+        <h3>Avaliações</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at ex consectetur, interdum turpis id, tincidunt odio. Nam suscipit velit et metus dictum sagittis. Duis elementum id velit quis ultrices. Ut eu enim a libero porta posuere et sed libero. Phasellus pretium in justo ac condimentum. Vivamus quis enim enim. Vivamus eget ullamcorper nisl.
+        </p>
+          
+        </div>
+
+
+        <!-- Aba de compre também -->
+        <div class="tab-pane" role="tabpanel" id="buyToo">
+        <h3>Compre também</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at ex consectetur, interdum turpis id, tincidunt odio. Nam suscipit velit et metus dictum sagittis. Duis elementum id velit quis ultrices. Ut eu enim a libero porta posuere et sed libero. Phasellus pretium in justo ac condimentum. Vivamus quis enim enim. Vivamus eget ullamcorper nisl.
+        </p>
+          
+        </div>
+        
+      </div>
+
+
+      <!--  -->
+    
+
+
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>
