@@ -73,3 +73,6 @@ a partir daqui passei a usar o Bootstrap 3.3 (versão mais antiga, a mesma usada 
 
 Modal Window:
 	https://getbootstrap.com/docs/3.3/javascript/
+
+Alertas:
+	https://getbootstrap.com/docs/3.3/components/#alerts
