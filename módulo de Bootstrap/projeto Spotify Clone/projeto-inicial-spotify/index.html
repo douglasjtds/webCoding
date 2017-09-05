@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Música para todos - Spotify</title>
+    <title>Música para todos - Spobrify</title>
     <link rel="icon" href="imagens/favicon.png">
 
     <!-- Bootstrap -->
@@ -20,6 +20,43 @@
     <![endif]-->
   </head>
   <body>
+
+    <nav class="navbar navbar-fixed-top navbar-inverse navbarTransparent">
+      <div class="container">
+        
+        <!-- header -->
+        <div class="navbar-header">
+
+        <!-- botão toggle -->
+        <button type="button" class="navbar-toggle collapsed"
+                data-toggle="collapse" data-target="#navigationBar"> <!-- não pode esquecer desse # no data target, pq é referenciando à um id -->
+          <span class="sr-only">Alternar navegação</span> <!-- apenas para leitores de tela -->    
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>  
+        </button>  
+
+        <a href="index.html" class="navbar-brand">
+          <span class="imgLogo">Spotify</span>
+        </a>
+
+        </div>
+
+        <!-- navbar -->
+        <div class="collapse navbar-collapse" id="navigationBar">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="">Premium</a></li>
+          <li><a href="">Ajuda</a></li>
+          <li><a href="">Baixar</a></li>
+          <li class="divisor" role="separator"></li>
+          <li><a href="">Inscrever-se</a></li>
+          <li><a href="">Entrar</a></li>
+        </ul>
+          
+        </div>
+
+      </div> <!-- container end -->
+    </nav> <!-- nav end -->
 
     
 
