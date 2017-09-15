@@ -76,3 +76,6 @@ Modal Window:
 
 Alertas:
 	https://getbootstrap.com/docs/3.3/components/#alerts
+
+Para gerar o ícone que aparece na barra do navegador ("favicon"), pesquise no google por:
+	favicon generator
