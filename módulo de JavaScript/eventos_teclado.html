@@ -1,0 +1,30 @@
+<!-- 
+
+// onkeydown - acionado no momento em que a tecla é pressionada (soltando ou não a tecla)
+// onkeypress - acionado no momento em que uma tecla é pressionada (soltando-a ou não), porém não captura todas as teclas, como por exemplo alt, ctrl, esq, shift, etc.
+// onkeyup - acionado no momento em que a tecla é liberada
+
+ -->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<title>Eventos - Teclado</title>
+
+	<script type="text/javascript">
+		
+		function msgTeclaPressionada(){
+			alert('Uma tecla foi pressionada.');
+		}
+
+
+	</script> 
+</head>
+
+<body>
+
+	<input onkeydown="msgTeclaPressionada()" type="text">
+
+</body>
+</html>

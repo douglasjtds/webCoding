@@ -3,6 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<title>Aula 1 - Variáveis</title>
+
 	<script type="text/javascript">
 		
 		//string
@@ -24,28 +25,54 @@
 
 		var texto2 = 'de JavaScript';
 
-		document.write('<br><br>');
+		document.write('<br>');
 		document.write(texto + texto2);
 
 		document.write('<br><br>');
-		var texto3 = 'Olá ';
-		var texto4 = prompt('Digite o seu nome:');
+		// var texto3 = 'Olá ';
+		// var texto4 = prompt('Digite o seu nome:');
 
-		document.write(texto3 + texto4);
+		// document.write(texto3 + texto4);
+		// document.write('<br>');
 
 
 		/* arrays */
-		listaFrutas = Array();
-		listaFrutas[1] = 'Banana';
-		listaFrutas[2] = 'Maça';
-		listaFrutas[3] = 'Morango';
-		listaFrutas[4] = 'Uva';
+		// listaFrutas = Array(); // ou var listaFrutas = [];
+		// listaFrutas[1] = 'Banana';
+		// listaFrutas[2] = 'Maça';
+		// listaFrutas[3] = 'Morango';
+		// listaFrutas[4] = 'Uva';
+		// //ou: 
+		// listaCarros = Array('Ford', 'Volkswagen', 'BMW', 'Ferrari'); //Ford está na posição 0
 
-		//ou: 
-		listaCarros = Array('Ford', 'Volkswagen', 'BMW', 'Ferrari'); //Ford está na posição 0
+		// document.write(listaFrutas[3]); //para escrever "Morango"
+		// document.write('<br>');
+		// document.write(listaCarros[2]); //para escrever "BMW"
+		// document.write('<br>');
 		
 
+		// _____ arrays multidimensionais _____
+		var listaDeCoisas = Array();
 
+		listaDeCoisas['frutas'] = Array();
+		listaDeCoisas['pessoas'] = Array();
+
+		listaDeCoisas['frutas'][1] = 'Banana';
+		listaDeCoisas['frutas'][2] = 'Maça';
+		listaDeCoisas['frutas'][3] = 'Morango';
+		listaDeCoisas['frutas'][4] = 'Uva';
+
+		listaDeCoisas['pessoas'][1] = 'João';
+		listaDeCoisas['pessoas'][2] = 'José';
+		listaDeCoisas['pessoas'][3] = 'Maria';
+
+		document.write('<br>');
+		document.write('Listas Multidimensionais: <br>');
+		document.write('Lista de frutas: ', listaDeCoisas['frutas'][2]); //para imprimir 'Maça'
+
+		document.write('<br>');
+		document.write('Lista de pessoas: ', listaDeCoisas['pessoas'][1]); //para imprimir 'João'
+		
 	</script>
 </head>
 
