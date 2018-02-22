@@ -30,7 +30,7 @@ function iniciaJogo (){
 	document.getElementById('baloesInteiros').innerHTML = qtdeBaloes;
 	document.getElementById('baloesEstourados').innerHTML = 0;
 
-	contagemTempo(5);
+	contagemTempo(tempoSegundos);
 
 }
 
