@@ -13,9 +13,10 @@ https://www.udemy.com/curso-completo-do-desenvolvedor-web/
 	- PHP,
 	- POO,
 	- MySQL
-- Pelos números
-Aulas: 318
-Vídeo: 34,5 horas
-Nível de experiência: Todos os níveis
-30851 alunos
-Idiomas: Português
+
+- Pelos números:
+	- Aulas: 318
+	- Vídeo: 34,5 horas
+	- Nível de experiência: Todos os níveis
+	- 30851 alunos
+	- Idiomas: Português
