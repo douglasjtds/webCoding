@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>jQuery eventos - formulários</title>
+
+	<!-- adicionando jQuery 2.2.0 através do link CDN -->
+	<script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+
+
+	<!-- adicionando o jQuery 3.3.1 via arquivo local no diretório-->
+	<!-- <script src="jquery-3.3.1.js"></script> -->
+
+	<!-- exemplo
+	$(elemento ou elementos).umaAcao(); -->
+	<script type="text/javascript">
+		
+		$(document).ready( function (){
+			
+			//focus - disparado quando o elemento recebe o cursor do mouse
+			//blur - elemento perdeu o foco
+			//change - chamado quando o elemento é modificado
+			
+
+			$('.campo1').blur( function(){
+				alert('Evento chamado');
+			})
+
+
+			$('.campo2').change( function(){
+				alert('Elemento foi modificado');
+			})
+		});
+
+
+	</script>
+
+</head>
+<body>
+
+	<input class="campo1" type="text">
+
+	<select class="campo2">
+		<option value="1">Primeira opção</option>
+		<option value="2">Segunda opção</option>
+	</select>
+
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>jQuery eventos - mouse</title>
+
+	<!-- adicionando jQuery 2.2.0 através do link CDN -->
+	<script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+
+
+	<!-- adicionando o jQuery 3.3.1 via arquivo local no diretório-->
+	<!-- <script src="jquery-3.3.1.js"></script> -->
+
+	<!-- exemplo
+	$(elemento ou elementos).umaAcao(); -->
+	<script type="text/javascript">
+		
+		$(document).ready( function (){
+			
+			//click
+			//dblclick
+			//mousedown - disparado no momento que pressiona o botão, não precisa soltar pra acontecer, diferente do "click"
+			//mouseover
+			//mouseout
+
+			$('#div1').click( function(){
+				alert('Elemento foi clicado');
+			});
+		});
+
+
+	</script>
+
+</head>
+<body>
+
+	<div id="div1" style="height: 150px; width: 150px; background: #CCC"></div>
+
+</body>
+</html>
