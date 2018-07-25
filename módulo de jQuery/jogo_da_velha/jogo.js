@@ -45,6 +45,7 @@ $(document).ready( function(){
 
 	$('.jogada').click( function(){
 		var idCampoClicado = this.id;
+		$('#'+idCampoClicado).off();
 		jogada(idCampoClicado);
 	});
 
